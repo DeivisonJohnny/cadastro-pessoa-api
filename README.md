@@ -2,70 +2,62 @@
 
 [![Core version](https://img.shields.io/packagist/v/splitphp/core.svg)](https://packagist.org/packages/splitphp/core)
 
-Boilerplate project to scaffold a new SplitPHP application.
+Projeto boilerplate para criar uma nova aplicação SplitPHP.
 
-## Installation
+## Instalação
 
-You can get started in two ways:
-
-### 1. Via Composer
+### Via Composer
 
 ```bash
 composer create-project splitphp/starter myapp
 cd myapp
 ```
 
-This will install the `splitphp/core` engine and set up the basic directory structure.
+### Download ZIP
 
-### 2. Download ZIP (For non-composer users)
+Baixe [aqui](https://github.com/splitphp/core/releases/latest/download/splitphp-distribution-latest.zip) e extraia:
 
-1. Download the latest version from this [link](https://github.com/splitphp/core/releases/latest/download/splitphp-distribution-latest.zip).
-2. Extract it:
+```bash
+unzip splitphp-distribution-latest.zip -d myapp
+cd myapp
+```
 
-   ```bash
-   unzip splitphp-distribution-latest.zip -d myapp
-   cd myapp
-   ```
-
-## Directory Structure
+## Estrutura de Diretórios
 
 ```
 myapp/
-├── core/         # SplitPHP core framework
-├── application/  # Application-specific code (user-defined code)
-├── modules/      # Reusable scalable modules (user-defined code)
-├── public/       # Web entry-point (e.g. index.php)
-├── config.ini    # Configurations file
-└── README.md     # This file
-└── LICENSE       # MIT License file
-└── console       # CLI entry-point
+├── core/         # Framework core do SplitPHP
+├── application/  # Código específico da aplicação
+├── modules/      # Módulos reutilizáveis
+├── public/       # Ponto de entrada web
+├── config.ini    # Arquivo de configuração
+├── console       # Ponto de entrada CLI
+└── README.md
 ```
 
-## Getting Started
+## Começando
 
-1. Setup your application:
+1. Configure a aplicação:
 
-  ```bash
-  php console setup
-  ```
-  This will create your application hash keys and config.ini file from example.config.ini, so you don't have to rename it manually.
+```bash
+php console setup
+```
 
-2. Run your application's dev server:
+2. Inicie o servidor de desenvolvimento:
 
-  ```bash
-  php console server:start
-  ```
-  This will create your application hash keys and config.ini file from example.config.ini, so you don't have to rename it manually.
-  
-3. Access http://localhost:8000 in the browser and you shall see the **SPLIT PHP** Welcome Page.
+```bash
+php console server:start
+```
 
-## Documentation
+3. Acesse http://localhost:8000
 
-For a more complete documentation, usage examples, and advanced topics, see the [SplitPHP Core repository](https://github.com/splitphp/core) README.
+## Documentação
+
+Para documentação completa, veja o [repositório SplitPHP Core](https://github.com/splitphp/core).
 
 ## Fontes de Pesquisa
 
-A principal fonte de pesquisa para o desenvolvimento desta API foi a documentação oficial do SplitPHP:
+Referência principal para o desenvolvimento da API:
 
 - [SplitPHP Documentation](https://splitphp.org/#components-service)
 
