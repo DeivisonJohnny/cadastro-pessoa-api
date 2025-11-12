@@ -63,6 +63,12 @@ myapp/
 
 For a more complete documentation, usage examples, and advanced topics, see the [SplitPHP Core repository](https://github.com/splitphp/core) README.
 
+## Fontes de Pesquisa
+
+A principal fonte de pesquisa para o desenvolvimento desta API foi a documentação oficial do SplitPHP:
+
+- [SplitPHP Documentation](https://splitphp.org/#components-service)
+
 ---
 
 © Gabriel Valentoni Guelfi | MIT License
